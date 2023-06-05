@@ -1,0 +1,61 @@
+{
+  "local": false,
+
+  "geomancer_neighbours_data_collection": "geomancer_property_neighbours",
+
+  "parcels_approved_data_collection": "vic_parcels_approved",
+  "parcels_approved_poly_path": "data_/vic_parcels_approved.pickle",
+  "parcels_approved_rtree_idx": "data_/vic_parcels_approved_rtree_idx",
+  "parcels_approved_data": "data_/vic_parcels_approved.feather",
+
+  "zone_data_collection": "vic_plan_zone",
+  "zone_poly_path": "data_/vic_plan_zone.pickle",
+  "zone_rtree_idx": "data_/vic_plan_zone_rtree_idx",
+  "zone_data": "data_/vic_plan_zone.feather",
+
+  "overlay_data_collection": "vic_plan_overlay_4283",
+  "overlay_poly_path": "data_/vic_plan_overlay.pickle",
+  "overlay_rtree_idx": "data_/vic_plan_overlay_rtree_idx",
+  "overlay_data": "data_/vic_plan_overlay.feather",
+
+  "heritage_data_collection": "vic_culture_heritage_4283",
+  "heritage_poly_path": "data_/vic_culture_heritage.pickle",
+  "heritage_rtree_idx": "data_/vic_culture_heritage_rtree_idx",
+  "heritage_data": "data_/vic_culture_heritage.feather",
+
+  "road_poly_data_collection": "vic_road_casement_4283",
+  "road_line_data_collection": "vic_road_4283",
+
+  "ordinance_links_lpp_collection": "vic_ordinance_lpp_url_4283",
+  "ordinance_links_lpp_dbf": "data_/vic_ordinance_lpp_url.dbf",
+
+  "ordinance_links_vpp_collection": "vic_ordinance_vpp_url_4283",
+  "ordinance_links_vpp_dbf": "data_/vic_ordinance_vpp_url.dbf",
+
+  "electricity_data_collection": "vic_energy_electricity_distributor",
+  "energy_poly_path": "data_/vic_energy.pickle",
+  "energy_rtree_idx": "data_/vic_energy_rtree_idx",
+  "energy_data": "data_/vic_energy.feather",
+
+  "urban_water_data_collection": "vic_melbourne_water_retailer_4283",
+  "urban_water_poly_path": "data_/vic_urban_water.pickle",
+  "urban_water_rtree_idx": "data_/vic_urban_water_rtree_idx",
+  "urban_water_data": "data_/vic_urban_water.feather",
+
+  "rural_water_data_collection": "vic_rural_water_corp_4283",
+  "rural_water_poly_path": "data_/vic_rural_water.pickle",
+  "rural_water_rtree_idx": "data_/vic_rural_water_rtree_idx",
+  "rural_water_data": "data_/vic_rural_water.feather",
+
+  "sal_data_collection": "vic_sal_4283",
+
+  "residential_zone_patterns": ["MUZ[0-9]?", "RGZ[0-9]*", "GRZ[0-9]*", "NRZ[0-9]*", "TZ[0-9]?", "LDRZ[0-9]?", "R[0-9]?Z"],
+  "params": {
+    "CONCAVITY_FACTOR": 0.5,
+    "MAX_AREA": 1000000,
+    "BUILDING_CLIPPING_THRESHOLD": 0.9,
+    "BUILDING_ASSOCIATION_THRESHOLD": 0.2,
+    "STREET_NAME_ASSOCIATION_THRESHOLD": 0.5
+  },
+  "calculators": []
+}

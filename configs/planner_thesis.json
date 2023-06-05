@@ -1,0 +1,17 @@
+{
+  "data_paths": "./data_paths.json",
+  "runnables": [
+    {
+      "type": "polygon_runnable",
+      "config": "./polygon_runnable_cfg.json"
+    },
+    {
+      "type": "association_runnable",
+      "config": "./association_runnable_cfg.json"
+    },
+    {
+      "type": "setback_runnable",
+      "config": "./setback_runnable_cfg.json"
+    }
+  ]
+}
