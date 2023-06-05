@@ -1,0 +1,96 @@
+{
+  "general": {
+    "price": 500000,
+    "bathrooms": 2,
+    "bedrooms": 3,
+    "car_spaces": 1
+  },
+  "modules": [
+    {
+      "name": "base_gf",
+      "enabled": true,
+      "coordinates": [[0.0, 0.0], [3.426, 0.0], [3.426, 12.031], [0.0, 12.031]],
+      "x_shift": 0,
+      "y_shift": 0,
+      "height": 4.322,
+      "label": "Double storey Building"
+    },
+    {
+      "name": "base_1f",
+      "enabled": true,
+      "coordinates": [[0.0, 0.0], [3.426, 0.0], [3.426, 12.031], [0.0, 12.031]],
+      "x_shift": 0,
+      "y_shift": 0,
+      "height": 4.282,
+      "display": true,
+      "label": "Double storey Building",
+      "windows": {
+        "centers": [[1.743, 0.0], [0.0, 3.7], [0.0, 6.752], [0.0, 8.535], [1.743, 12.031]],
+        "widths": [2.1, 0.9, 0.9, 0.9, 2.1],
+        "overlooking_radius": 9,
+        "display": true,
+        "obscure": [false, true, true, true, false]
+      }
+    },
+    {
+      "name": "upper_right",
+      "enabled": true,
+      "coordinates": [[0.0, 0.0], [3.13, 0.0], [3.13, 11.547], [0.0, 11.547]],
+      "x_shift": 3.426,
+      "y_shift": 0.242,
+      "height": 3.255,
+      "steps": [0],
+      "display": true,
+      "label": "Double storey Building",
+      "windows": {
+        "centers": [[1.735, 0.0], [3.13, 4.232], [3.13, 7.459], [1.55, 11.547]],
+        "widths": [2.1, 0.9, 0.9, 2.1],
+        "overlooking_radius": 9,
+        "display": true,
+        "obscure": [false, true, true, false]
+      }
+    },
+    {
+      "name": "stairs",
+      "enabled": false,
+      "coordinates": [[0.0, 0.0], [3.13, 0.0], [3.13, 3.130], [0.0, 3.130]],
+      "x_shift": 3.426,
+      "y_shift": 8.659,
+      "height": 0,
+      "display": true
+    },
+    {
+      "name": "lower_left",
+      "enabled": true,
+      "coordinates": [[0.0, 0.0], [3.100, 0.0], [3.100, 11.547], [0.0, 11.547]],
+      "x_shift": -3.1,
+      "y_shift": 0.242,
+      "height": 3.777,
+      "steps": [0],
+      "label": "Double storey Building"
+    },
+    {
+      "name": "car_park",
+      "enabled": true,
+      "coordinates": [[0.0, 0.0], [3.50, 0.0], [3.50, 11.547], [0.0, 11.547]],
+      "x_shift": 5.051,
+      "y_shift": 0.242,
+      "height": 4.372,
+      "label": "Car Park",
+      "facecolor": "lightsteelblue"
+    },
+    {
+      "name": "terrace",
+      "enabled": false,
+      "coordinates": [[0.0, 0.0], [6.56, 0.0], [6.56, 5.242], [0.0, 5.242]],
+      "x_shift": -3.1,
+      "y_shift": 11.789,
+      "height": 0,
+      "facecolor": "papayawhip",
+      "label": "Terrace",
+      "pervious": true
+    }
+  ]
+}
+
+
